@@ -315,7 +315,6 @@ section h4{
 }
 
 .footer-song{
-
     height: 100%;
     display: flex;
     align-items: center;
@@ -333,7 +332,7 @@ section h4{
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-}
+}ß
 
 .footer-info p:first-child{
     color: white;
