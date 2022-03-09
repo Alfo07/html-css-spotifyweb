@@ -7,16 +7,23 @@
 }
 
 body{
+    font-family: 'Montserrat', sans-serif;
     background-color: black;
     width: 100vw;
     height: 100vh;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* Container  */
 
 .container-header{
     background-color: rgba(0, 0, 0, 0.5);
-    width: 82%;
+    width: calc(100% - 240px);
     height: 80px;
     position: fixed;
     top: 0;
@@ -26,8 +33,8 @@ body{
 
 .container-aside{
     background-color: #000000;
-    width: 18%;
-    height: 91%;
+    min-width: 240px;
+    height: calc(100% - 80px);
     position: fixed;
     top: 0;
     left: 0;
@@ -35,8 +42,8 @@ body{
 
 .container-main{
     background-color: #141922;
-    width: 82%;
-    height: 91%;
+    width: calc(100% - 240px);
+    height: calc(100% - 80px);
     position: fixed;
     top: 0;
     right: 0;
@@ -50,3 +57,141 @@ body{
     bottom: 0;
     left: 0;
 }
+
+/* Header */
+.upgrade{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header a{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+/* Menu laterale */
+.logo{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo img{
+    width: 140px;
+    margin-left: 20px;
+}
+
+.total-flex{
+    width: 100%;
+    height: 115%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.aside-flex{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    overflow-y: hidden;
+}
+
+.aside-flex ul li{
+    padding: 5px 0;
+    padding-left: 20px;
+}
+
+.aside-flex ul li a{
+    text-decoration: none;
+    color:rgb(110, 112, 118);
+    font-size: 13px;
+}
+
+.aside-logo img{
+    width: 23px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#green-line{
+    border-left: 2px solid greenyellow;
+}
+
+#home{
+    color: white;
+    margin-left: -2px;
+}
+
+#home img{
+    width: 23px;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.fa-square-plus{
+    color:rgb(110, 112, 118);
+    font-size: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+h3{
+    font-size: 15px;
+    color: white;
+    margin-top: 15px;
+}
+
+.aside-bottom{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.install{
+    color: rgb(110, 112, 118);
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.install span img{
+    width: 23px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.line{
+    width: 90%;
+    margin: 5px 20px 10px 0px;
+    border: 0.5px solid rgb(110, 112, 118);
+}
+
+
+.profile{
+    color: white;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.profile span img{
+    width: 23px;
+    height: 23px;
+    vertical-align: middle;
+    margin-right: 5px;
+    background-color: rgb(110, 112, 118);
+    border-radius: 50%;
+}
+
+
