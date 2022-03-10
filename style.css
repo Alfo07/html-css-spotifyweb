@@ -231,6 +231,7 @@ h3{
     list-style-type: none;
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
     gap: 25px;
 }
 
@@ -631,6 +632,10 @@ section h4{
         top: 0;
         right: 0;
         overflow-y: auto;
+    }
+
+    .main-nav{
+        width: calc(100% - 20px);
     }
 
     .card {
