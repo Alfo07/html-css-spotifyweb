@@ -23,7 +23,7 @@
     <!-- Menù laterale -->
     <aside class="container-aside"> 
         <div class="logo clearfix">
-            <img src="./img/logo.svg" alt="Logo Spotify">
+            <img src="./img/logo-small.svg" alt="Logo Spotify"><span>Spotify</span>
         </div>
         <div class="aside-total-flex clearfix">
             <div class="aside-flex clearfix">
@@ -41,7 +41,7 @@
                         <h3>Playlist</h3>
                     </li>
                     <li>
-                        <a href=""><i class="fa-solid fa-square-plus"></i><span>Crea Playlist</span></a>
+                        <a href=""><span><i class="fa-solid fa-square-plus"></i>Crea Playlist</span></a>
                     </li>
                     <li>
                         <a href="" ><span>Nome Playlist</span></a>
@@ -69,11 +69,11 @@
 
             <div class="aside-bottom clearfix">
                 <div class="install">
-                    <a href=""><span><img src="./img/download.svg" alt="download"> Installa app</span></a>
+                    <a href=""><img src="./img/download.svg" alt="download"><span>Installa app</span></a>
                 </div>
                 <div class="line"></div>
                 <div class="profile">
-                    <span><img src="./img/profile.svg" alt="profile"> John Doe</span> 
+                    <img src="./img/profile.svg" alt="profile"><span>John Doe</span> 
                 </div>
             </div> 
         </div>
@@ -99,10 +99,10 @@
                     <a href="#">generi e mood</a>
                 </li>
                 <li>
-                    <a href="#">nuove uscite</a>
+                    <a class="last-two" href="#">nuove uscite</a>
                 </li>
                 <li>
-                    <a href="#">scopri</a>
+                    <a class="last-two" href="#">scopri</a>
                 </li>
             </ul>
 
@@ -114,7 +114,8 @@
             <div class="main-container clearfix">
                 <div class="card">
                     <div class="card-img">
-                        <img class="metal" src="img/metal_lifting.jpg" alt="Immagine con un mix di copertine di album heavy metal">
+                        <img class="metal" src="img/metal_lifting.jpg">
+                        <i class="fa-regular fa-circle-play"></i>
                     </div>
                     <h3>Heavy Metal</h3>
                     <h4>Subtitle</h4>
@@ -122,6 +123,7 @@
                 <div class="card">
                     <div class="card-img">
                         <img src="./img/stranger.jpeg" alt="">
+                        <i class="fa-regular fa-circle-play"></i>
                     </div>
                     <h3>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
                     <h4>Kyle Dixon & Michael Stein</h4>
@@ -129,6 +131,7 @@
                 <div class="card">
                     <div class="card-img">
                         <img src="./img/aquietplace.jpeg" alt="">
+                        <i class="fa-regular fa-circle-play"></i>
                     </div>
                     <h3>A quiet place</h3>
                     <h4>Subtitle</h4>
@@ -136,6 +139,7 @@
                 <div class="card">
                     <div class="card-img">
                         <img src="./img/split.jpeg" alt="">
+                        <i class="fa-regular fa-circle-play"></i>
                     </div>
                     <h3>Split</h3>
                     <h4>Subtitle</h4>
@@ -143,6 +147,7 @@
                 <div class="card">
                     <div class="card-img">
                         <img src="./img/cure.jpeg" alt="">
+                        <i class="fa-regular fa-circle-play"></i>
                     </div>
                     <h3>A cure for wellness</h3>
                     <h4>Subtitle</h4>
@@ -150,6 +155,7 @@
                 <div class="card">
                     <div class="card-img">
                         <img src="./img/sinister.jpeg" alt="">
+                        <i class="fa-regular fa-circle-play"></i>
                     </div>
                     <div class="card-text">
                         <h3>Sinister</h3>
@@ -162,17 +168,19 @@
         <!-- Creato per John Doe -->
         <section>
             <h2>Creato per Jonh Doe</h2>
-            <h4>Più ascolti, più accurati saranno i suggerimenti.</h4>
+            <h4 class="subtitle">Più ascolti, più accurati saranno i suggerimenti.</h4>
             <div class="main-container">
                 <div class="card">
                     <div class="card-img">
                         <img src="./img/radar.jpeg">
+                        <i class="fa-regular fa-circle-play"></i>
                     </div>
                     <h3>Release Radar</h3>
                 </div>
                 <div class="card">
                     <div class="card-img">
                         <img src="./img/mixdaily.jpeg">
+                        <i class="fa-regular fa-circle-play"></i>
                     </div>
                     <h3>Daily Mix 1</h3>
                 </div>
@@ -182,7 +190,7 @@
         <!-- Artisti più popolari  -->
         <section>
             <h2>Artisti più popolari</h2>
-            <h4>Più ascolti, più accurati saranno i suggerimenti.</h4>
+            <h4 class="subtitle">Più ascolti, più accurati saranno i suggerimenti.</h4>
             <div class="main-container">
                 <div class="card">
                     <div class="card-img">
@@ -235,9 +243,9 @@
             </div>
 
             <div class="footer-right clearfix">
-                <a href=""><i class="fa-solid fa-list-ul"></i></a>
-                <a href=""><i class="fa-solid fa-tv"></i></a>
-                <a href=""><i class="fa-solid fa-volume-high"></i></a>
+                    <a href=""><i class="fa-solid fa-list-ul"></i></a>
+                    <a href=""><i class="fa-solid fa-tv"></i></a>
+                    <a href=""><i class="fa-solid fa-volume-high"></i></a>
                 <div class="volume-bar">
                     <div class="volume-line">
                         <div class="little-volume-line"></div>
